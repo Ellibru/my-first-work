@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 40px;
+    font-family: "Inter", sans-serif;
+}
+body{
+    background-color: black;
+}
+
+/* header */
+
+header{
+    padding: 20px;
+    padding-bottom: 0;
+}
+nav.menu{
+    display: flex;
+    align-items: center;
+    margin-top: -120px;
+    justify-content: space-between;
+}
+nav.menu > a{
+    text-decoration: none;
+    color: #fff;
+}
+a.menu_logo{
+    display: flex;
+    justify-content: space-around;
+}
+.menu_link, .menu_link-active{
+    padding: 10px;
+    margin: 10px;
+}
+
+/* welcome */
+
+p{
+    color: #fff;
+}
+.welcome{
+    padding: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.welcome_button{
+    margin-top: 100px;
+    display: inline-block;
+    padding: 20px 60px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 55px;
+    text-decoration: none;
+}
+.welcome_image{
+    max-width: 500px;
+    margin-right: 1000px ;
+}
+.welcome_text{
+    width: 800px;
+    margin-right: 400px;
+}
+ 
+/* service */
+
+
+.our_services {
+    padding: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our_services_top h1{
+    padding: 20px;
+    margin: 20px;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+}
+
+.our_services_top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 900px;
+}
+
+.our_services_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service_card {
+    width: 350px;
+    padding: 40px;
+    margin: 35px;
+    box-shadow:  10px 40px 50px rgba(229, 233, 346, 0.4);
+    background-color: #333;
+    border-radius: 20px;
+}
+
+.service_card h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.service_card p{
+    font-size: 30px;
+}
+
+.service_card img {
+    margin-bottom: 20px;
+}
